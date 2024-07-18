@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Budget App</title>
+    <title>Budget app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Budget App</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <div><label for="Date">Date - </label><input type="date" required></div>
+            <div><label for="Category">Category - </label><input type="text" required ></div>
+            <div><label for="Currency">Currency - </label><select name="currency" id="">
+                <option value="LKR">LKR</option>
+                <option value="USD">USD</option>
+                    </select>
+            </div>
+            <div><label for="Description">Description - </label><input type="text" ></div>
+            <div><label for="Amout">Amount - </label><input type="number" required></div>
+
+            <div class="button">
+                <button>Save</button>
+            </div>
+        </section>
+    </div>
+
 </body>
 </html>
