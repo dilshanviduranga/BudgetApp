@@ -8,26 +8,28 @@
 </head>
 <body>
     <header>
-        <h1>Budget App</h1>
+        <h1>Personal Budget Tracker</h1>
     </header>
 
     <div class="container">
         <section>
-            <div><label for="Date">Date - </label><input type="date" required></div>
-            <div><label for="Category">Category - </label><input type="text" required ></div>
-            <div><label for="Currency">Currency - </label><select name="currency" id="">
+            <div><label for="Date">Date  </label><input type="date" required id="date"></div>
+            <div><label for="Category">Category  </label><input type="text" required id="category"></div>
+            <div><label for="Currency">Currency </label><select name="currency" id="currency">
                 <option value="LKR">LKR</option>
                 <option value="USD">USD</option>
                     </select>
             </div>
-            <div><label for="Description">Description - </label><input type="text" ></div>
-            <div><label for="Amout">Amount - </label><input type="number" required></div>
+            <div><label for="Description">Description  </label><input type="text" id="description"></div>
+            <div><label for="Amout">Amount  </label><input type="number" required id="amount"></div>
 
             <div class="button">
-                <button>Save</button>
+                <button id="btnSave" onclick="saveInfo()">Save</button>
             </div>
         </section>
     </div>
+
+    <script src="app.js"></script>
 
 </body>
 </html>

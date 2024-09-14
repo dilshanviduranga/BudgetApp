@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(1, 1, 1, 1);
-    max-width: 30rem;
+    max-width: 20em;
 }
 
 header {
@@ -33,4 +33,8 @@ div label {
 
 button{
     margin: 0px 0px 1px 5rem;
+    padding: 5px 10px 5px 10px;
+    border: black solid 1px;
+    color: rgb(39, 197, 22);
+    font-size: medium;
 }
